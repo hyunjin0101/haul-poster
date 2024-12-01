@@ -1,31 +1,3 @@
-/* document.querySelector('.toggle-button').addEventListener('click', function () {
-    const hiddenRow = document.querySelector('.hidden-row');
-  
-    if (hiddenRow.style.display === 'flex') {
-      hiddenRow.style.display = 'none';
-      this.textContent = '모두 보기';
-    } else {
-      hiddenRow.style.display = 'flex';
-      this.textContent = '닫기';
-    }
-  }); */
-/* toggleButton.addEventListener('click', () => {
-    isVisible = !isVisible;
-
-    hiddenRows.forEach(row => {
-        if (isVisible) {
-            row.style.opacity = '1'; // 완전히 표시
-            row.style.filter = 'none'; // 흐림 효과 제거
-            row.style.pointerEvents = 'auto'; // 클릭 가능
-        } else {
-            row.style.opacity = '0.3'; // 흐릿하게
-            row.style.filter = 'blur(3px)'; // 흐림 효과 추가
-            row.style.pointerEvents = 'none'; // 클릭 방지
-        }
-    });
-
-    toggleButton.textContent = isVisible ? '닫기' : '모두 보기'; // 버튼 텍스트 변경
-}); */
 //하단 포스터 링크
 const posterLinks = [
     '6.html',  
@@ -77,11 +49,9 @@ function clickSubButton(buttonId) {
     hiddenRows.forEach(row => {
       if (isVisible) {
         row.style.opacity = '0.0'; // 흐릿하게
-        row.style.filter = 'blur(3px)'; // 흐림 효과 추가
         row.style.pointerEvents = 'none'; // 클릭 방지
       } else {
         row.style.opacity = '1'; // 완전히 보이게
-        row.style.filter = 'none'; // 흐림 효과 제거
         row.style.pointerEvents = 'auto'; // 클릭 가능
       }
     });

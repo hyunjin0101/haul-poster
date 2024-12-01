@@ -75,7 +75,7 @@ toggleButton.addEventListener('click', () => {
 
   hiddenRows.forEach(row => {
     if (isVisible) {
-      row.style.opacity = '0.3'; // 흐릿하게
+      row.style.opacity = '0.0'; // 흐릿하게
       row.style.filter = 'blur(3px)'; // 흐림 효과 추가
       row.style.pointerEvents = 'none'; // 클릭 방지
     } else {

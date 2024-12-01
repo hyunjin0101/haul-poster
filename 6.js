@@ -1,4 +1,4 @@
-/* document.querySelector('.toggle-button').addEventListener('click', function () {
+ㄷ/* document.querySelector('.toggle-button').addEventListener('click', function () {
     const hiddenRow = document.querySelector('.hidden-row');
   
     if (hiddenRow.style.display === 'flex') {
@@ -76,7 +76,7 @@ function clickSubButton(buttonId) {
   
     hiddenRows.forEach(row => {
       if (isVisible) {
-        row.style.opacity = '0.3'; // 흐릿하게
+        row.style.opacity = '0.0'; // 흐릿하게
         row.style.filter = 'blur(3px)'; // 흐림 효과 추가
         row.style.pointerEvents = 'none'; // 클릭 방지
       } else {

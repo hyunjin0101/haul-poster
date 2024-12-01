@@ -1,10 +1,10 @@
 //하단 포스터 링크
 const posterLinks = [
-    '3.html', 
+    'index.html', 
     '4.html', 
     '5.html', 
     '6.html', 
-    'index.html'  
+    '1.html'  
   ];
 //상단 메뉴
 // 드롭다운 메뉴 표시/숨김

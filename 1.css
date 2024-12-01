@@ -204,11 +204,9 @@ display: none;
 .hidden-row {
     opacity: 0.3;
     /* 흐릿하게 표시 */
-    filter: blur(3px);
-    /* 흐림 효과 추가 */
     pointer-events: none;
     /* 클릭 불가능 */
-    transition: opacity 0.3s ease, filter 0.3s ease;
+    transition: opacity 0.3s ease;
     /* 부드러운 전환 */
 }
 

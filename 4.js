@@ -3,8 +3,8 @@ const posterLinks = [
     '5.html', 
     '6.html', 
     '1.html', 
-    'index.html', 
-    '3.html'  
+    '2.html', 
+    'index.html'  
   ];
   
 //상단 메뉴

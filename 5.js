@@ -2,8 +2,8 @@
 const posterLinks = [
     '6.html',  
     '1.html', 
-    '2.html', 
-    'index.html',
+    'index.html', 
+    '3.html',
     '4.html' 
   ];
 
